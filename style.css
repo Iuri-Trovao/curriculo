@@ -34,14 +34,14 @@ body{
     min-height: 120px;
     max-height: 600px;
     min-width: 120px;
-    max-width: 2560px;
+    max-width: 2580px;
 
     text-align: center;
     font-size: x-large;
     color: aliceblue;
 }
 .foto-perfil{
-    margin-top: 50px;
+    margin-top: 20px;
 
     border-radius: 50%;
     border-width: 5px;
@@ -55,6 +55,10 @@ body{
     }
 }
 
+.perfil h3{
+    padding-bottom: 10px;
+}
+    /* media fonte dos contato */
 @media (max-width: 2680px) and (min-width: 376){
     .perfil h3{
         font-size: x-large;
@@ -78,6 +82,40 @@ body{
 
     /* sobre-mim */
 .sobre-mim{
+    background: rgb(30, 30, 30);
+    color: aliceblue;
+
     min-width: 120px;
     max-width: 2560px;
+
+    margin-top: 4px;
+    padding: 50px;
+}
+    /*media fonte sobre-mim */
+@media (max-width: 2580px) and (min-width: 120px){
+    .sobre-mim{
+        font-size: xx-large;
+    }
+}
+
+    /* tecnologias */
+.tecnologias{
+    background: rgb(30, 30, 30);
+
+    min-width: 120px;
+    max-width: 2580px;
+
+    margin-top: 4px;
+}
+
+    /* formação */
+.formação{
+    background: rgb(30, 30, 30);
+    color: aliceblue;
+
+    min-width: 120px;
+    max-width: 2580px;
+
+    margin-top: 4px;
+    padding: 50px;
 }
