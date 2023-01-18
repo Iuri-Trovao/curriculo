@@ -32,7 +32,7 @@ body{
     background: rgb(30, 30, 30);
 
     min-height: 120px;
-    max-height: 600px;
+    max-height: 800px;
     min-width: 120px;
     max-width: 2580px;
 
@@ -49,9 +49,14 @@ body{
     border-style: solid;
 }
     /* midia img de perfil */
-@media (max-width: 2680px) and (min-width: 120px){
+@media (max-width: 2680px) and (min-width: 373px){
     .foto-perfil{
-        height: 50%;
+        width: 20%;
+    }
+}
+@media (max-width: 373px) and (min-width: 120px){
+    .foto-perfil{
+        width: 50%;
     }
 }
 
@@ -107,6 +112,89 @@ body{
 
     margin-top: 4px;
 }
+    /* media tamanho img tecnologias */
+@media (max-width: 2580px) and (min-width: 1931px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 450px;
+    }
+}
+@media (max-width: 1931px) and (min-width: 1420px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 350px;
+    }
+}
+@media (max-width: 1420px) and (min-width: 1069px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1069px) and (min-width: 834px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 200px;
+    }
+}
+@media (max-width: 834px) and (min-width: 622px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 150px;
+    }
+}
+@media (max-width: 622px) and (min-width: 409px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 409px) and (min-width: 398px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 398px) and (min-width: 328px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 328px) and (min-width: 120px){
+    .tecnologias img{
+        width: 20%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+}
+
 
     /* formação */
 .formação{
@@ -117,5 +205,23 @@ body{
     max-width: 2580px;
 
     margin-top: 4px;
-    padding: 50px;
+    
+}
+@media (max-width: 2580px) and (min-width: 568px){
+    .formação{
+        font-size: xx-large;
+        padding: 100px;
+    }
+}
+@media (max-width: 568px) and (min-width: 371px){
+    .formação{
+        font-size: x-large;
+        padding: 100px;
+    }
+}
+@media (max-width: 371px) and (min-width: 120px){
+    .formação{
+        font-size: large;
+        padding: 50px;
+    }
 }
