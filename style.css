@@ -51,7 +51,7 @@ body{
     /* midia img de perfil */
 @media (max-width: 2680px) and (min-width: 373px){
     .foto-perfil{
-        width: 20%;
+        width: 30%;
     }
 }
 @media (max-width: 373px) and (min-width: 120px){
