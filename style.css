@@ -49,12 +49,22 @@ body{
     border-style: solid;
 }
     /* midia img de perfil */
-@media (max-width: 2680px) and (min-width: 373px){
+@media (max-width: 2680px) and (min-width: 884px){
     .foto-perfil{
         width: 20%;
     }
 }
-@media (max-width: 373px) and (min-width: 120px){
+@media (max-width: 884px) and (min-width: 371px){
+    .foto-perfil{
+        width: 40%;
+    }
+}
+@media (max-width: 371px) and (min-width:296px){
+    .foto-perfil{
+        width: 50%;
+    }
+}
+@media (max-width: 296px) and (min-width: 120px){
     .foto-perfil{
         width: 60%;
     }
