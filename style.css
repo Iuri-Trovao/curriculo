@@ -112,11 +112,22 @@ body{
         font-size: xx-large;
     }
 }
-@media (max-width: 896px) and (min-width: 120px){
+@media (max-width: 896px) and (min-width: 465px){
     .sobre-mim{
         font-size: large;
     }
 }
+@media (max-width: 465px) and (min-width: 380px){
+    .sobre-mim{
+        font-size: small;
+    }
+}
+@media (max-width: 380px) and (min-width: 120px){
+    .sobre-mim{
+        font-size: smaller;
+    }
+}
+
 
     /* tecnologias */
 .tecnologias{
