@@ -107,12 +107,12 @@ body{
     padding: 50px;
 }
     /*media fonte sobre-mim */
-@media (max-width: 2580px) and (min-width: 500px){
+@media (max-width: 2580px) and (min-width: 896px){
     .sobre-mim{
         font-size: xx-large;
     }
 }
-@media (max-width: 500px) and (min-width: 120px){
+@media (max-width: 896px) and (min-width: 120px){
     .sobre-mim{
         font-size: large;
     }
